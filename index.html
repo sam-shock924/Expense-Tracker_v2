@@ -16,13 +16,13 @@
         <input type="date" id="expenseInfoDate">
         <select id="expenseInfoType">
             <option value="">--Please Select an Option--</option>
-            <option value="cash">Cash</option>
-            <option value="Credit Card">Credit Card</option>
-            <option value="Debit">Debit Card</option>
+            <option id="cashOption" value="cash">Cash</option>
+            <option id="creditCardOption" value="Credit Card">Credit Card</option>
+            <option id="debitCardOption" value="Debit">Debit Card</option>
         </select>
         <input type="text" id="expenseInfoDescription">
         <input type="number" id="expenseInfoCost">
-        <button type="submit">Submit</button>
+        <button id="submitButton" type="button">Submit</button>
     </form>
     <br><br>
     <table class="expenseTable">
