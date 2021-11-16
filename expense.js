@@ -16,10 +16,25 @@ if you need to delete a payment entry, check on each entry you want deleted, and
 --possibly add a "totals" tracker at bottom of tracker
 */
 
-const expenseTable = document.querySelector('.expenseTable');
-const tableDate = document.querySelector('expenseTableDate');
-const tablePaymentType = document.querySelector('expenseTableType');
-const tableItemDescription = document.querySelector('expenseTableDescription');
-const tableItemCost = document.querySelector('expenseTableCost');
-const expenseRow = document.querySelector('expenseInfoRow');
+// const expenseTable = document.querySelector('.expenseTable');
+// const tableDate = document.querySelector('#expenseTableDate');
+// const tablePaymentType = document.querySelector('#expenseTableType');
+// const tableItemDescription = document.querySelector('#expenseTableDescription');
+// const tableItemCost = document.querySelector('#expenseTableCost');
+// const expenseRow = document.querySelector('expenseInfoRow');
 
+const submitButton = document.querySelector('#submitButton');
+const expenseForm = document.querySelector('#expenseInfoForm');
+const formDate = document.querySelector('#expenseInfoDate');
+const formPaymentOption = document.querySelector('#expenseInfoType');
+const formDescription = document.querySelector('#expenseInfoDescription');
+const formCost = document.querySelector('#expenseInfoCost');
+
+submitButton.addEventListener('click', getInput)
+
+function getInput(){
+    console.log(formDate.value);
+    console.log(formPaymentOption.value);
+    console.log(formDescription.value);
+    console.log(formCost.value);
+};
