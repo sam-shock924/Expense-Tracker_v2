@@ -16,23 +16,27 @@
         <input type="date" id="expenseInfoDate">
         <select id="expenseInfoType">
             <option value="">--Please Select an Option--</option>
-            <option id="cashOption" value="cash">Cash</option>
+            <option id="cashOption" value="Cash">Cash</option>
             <option id="creditCardOption" value="Credit Card">Credit Card</option>
-            <option id="debitCardOption" value="Debit">Debit Card</option>
+            <option id="debitCardOption" value="Debit Card">Debit Card</option>
         </select>
         <input type="text" id="expenseInfoDescription">
         <input type="number" id="expenseInfoCost">
-        <button id="submitButton" type="button">Submit</button>
+        <input id="submitButton" type="submit"></input>
     </form>
     <br><br>
     <table class="expenseTable">
-        <tr id="tableHeader">
-            <th class="expenseHeaders" id="expenseTableDate">Date</th>
-            <th class="expenseHeaders" id="expenseTableType">Payment Type</th>
-            <th class="expenseHeaders" id="expenseTableDescription">Description</th>
-            <th class="expenseHeaders" id="expenseTableCost">Cost</th>
-        </tr>
-        <tr id="expenseInfoRow"></tr>
+        <thead id="tableHeader">
+            <tr>
+                <th class="expenseHeaders" id="expenseTableDate">Date</th>
+                <th class="expenseHeaders" id="expenseTableType">Payment Type</th>
+                <th class="expenseHeaders" id="expenseTableDescription">Description</th>
+                <th class="expenseHeaders" id="expenseTableCost">Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="expenseInfoRow"></tr>
+        </tbody>
     </table>
 
     <script src="expense.js"></script>
