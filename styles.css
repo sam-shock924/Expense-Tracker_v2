@@ -1,4 +1,4 @@
-/* body {
+body {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -7,23 +7,10 @@ h1 {
   font-size: 3em;
 }
 
-form {
+#expenseInfoForm {
   text-align: center;
-  display: flex;
-  padding: 10px;
-}
-
-table {
-  border-collapse: separate;
-  border-spacing: 0 15px;
-  border-bottom: 0.5px solid grey;
-  border-width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .expenseHeaders {
-  width: 100px;
-  padding: 50px;
-} */
+  text-align: center;
+}
