@@ -11,6 +11,13 @@ h1 {
   text-align: center;
 }
 
-.expenseHeaders {
+th {
   text-align: center;
+  padding: 3rem;
+}
+
+table.expenseTable {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
