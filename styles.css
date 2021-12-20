@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: ivory;
 }
 
 h1 {
@@ -13,11 +14,21 @@ h1 {
 
 th {
   text-align: center;
-  padding: 3rem;
+  padding: 2rem;
+  text-decoration: underline;
 }
 
 table.expenseTable {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.deleteButton {
+  background-color: #f76060;
+  border-radius: 5px;
+}
+
+.deleteButton:hover {
+  background-color: #ba0000;
 }
